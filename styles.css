@@ -1,0 +1,142 @@
+img.banner-img {
+    filter: blur(3px);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.main {
+    background-color: lightskyblue;
+}
+
+.banner {
+    border-color: lightskyblue;
+    border-radius: 1%;
+    border-style: solid;
+    position: relative;
+    text-align: center;
+    color: yellow;
+}
+
+img.banner-quote {
+    margin-top: -1%;
+    position: absolute;
+    left: 28%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.items-set {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-row-gap: 5%;
+    grid-template-rows: repeat(1, 100%);
+}
+
+img.subset-img {
+    filter: blur(1.5px);
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.subset-name {
+    position: relative;
+    background: rgb(0, 0, 0, 0.7);
+    width: 100%;
+    height: 10%;
+    margin-top: -15%;
+    color: white;
+    text-align: left;
+    font-size: 1.5vw;
+    color: lightskyblue
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.subset:hover img.subset-img {
+    filter: blur(0px);
+}
+
+.contacts {
+    border-color: lightskyblue;
+    border-radius: 1%;
+    border-style: solid;
+    font-size: 2vw;
+    min-height: 100px;
+    text-align: center;
+}
+
+body {
+    background-color: rgba(65, 71, 66, 0.533);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a.address-link {
+    color: mediumorchid;
+}
+
+.back {
+    max-height: 400px;
+    background-color: lightskyblue;
+    text-align: center;
+    font-size: 4vw;
+}
+
+img.back-arrow {
+    object-fit: fill;
+    width: 5%;
+    position: absolute;
+    left: 0%
+}
+
+.main-Tents {
+    background-color: lightskyblue;
+    margin-top: 2%;
+}
+
+.catalog {
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: repeat(2, 30%);
+    grid-template-rows: repeat(3, 20%);
+    justify-content: center;
+}
+
+.ess-catalog {
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    grid-template-rows: repeat(4, 40%);
+    column-gap: 1%;
+    justify-content: center;
+}
+
+img.product {
+    object-fit: fill;
+    height: 70%;
+    width: 100%;
+}
+
+.product-info {
+    width: 100%;
+    height: 70%;
+}
+
+.nav {
+    text-align: center;
+    border-color: lightskyblue;
+    border-radius: 0%;
+    border-style: solid;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0.5%;
+    font-size: 2vw;
+}
